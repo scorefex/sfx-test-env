@@ -1,4 +1,4 @@
 budget_tier,label,min_budget,max_budget,reference_budget,stake_per_parlay,legs_per_parlay
-low,Low budget,0,250,250,15,1-7
-mid,Mid budget,251,500,500,40,1-5
-high,High budget,501,,1000,150,1-3
+low,Starter Bankroll,0,250,250,15,1-7
+mid,Pro Bankroll,251,500,500,40,1-5
+high,Elite Bankroll,501,,1000,150,1-3
