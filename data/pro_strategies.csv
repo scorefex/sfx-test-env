@@ -1,0 +1,5 @@
+strategy,label,capital_share,leagues,days_per_week,parlays_per_day,risk,legs_per_parlay,odds_min,odds_max,staking,reference_capital
+long_term,Long-Term,0.7,Top 5 leagues + UEFA Champions League,1-3,2,safe / low,1-3,1.5,2.0,Kelly criterion (quarter Kelly),100.0
+rolling,Rolling,0.1,Top 5 leagues + UEFA Champions League,1-3,2,safe / low,1-3,1.5,2.0,"50% of the pot, rolled; profit banked at 100x",100.0
+monthly,Monthly,0.1,Every league we cover,3-5,2,low / mid,3-5,2.0,5.0,Kelly criterion (quarter Kelly),100.0
+daily,Daily,0.1,Every league we cover,3-5,2,mid / high,5-10,3.0,7.0,Kelly criterion (quarter Kelly),100.0
