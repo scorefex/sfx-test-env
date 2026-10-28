@@ -1,62 +1,61 @@
 tip_id,date,match_id,kickoff,league,home_team,away_team,market,selection,odds,odds_source,fair_probability,ht_score,final_score,result,stake,payout,profit
-SFF-260801-0001,2026-08-01,16362000,19:30,Scottish Premiership,Aberdeen,Heart of Midlothian,Both teams to score,Yes,1.61,real,0.5767,0-1,2-1,won,100.0,161.0,61.0
-SFF-260802-0002,2026-08-02,16362150,16:00,Scottish Premiership,St. Johnstone,Kilmarnock,At least one team to score 1.5,Yes,1.51,model,0.6259,1-1,4-3,won,100.0,151.0,51.0
-SFF-260803-0003,2026-08-03,16362021,21:30,Scottish Premiership,Celtic,Dundee FC,Team goals range 1-3,Celtic: yes,1.63,model,0.5798,0-0,1-0,won,100.0,163.0,63.0
-SFF-260807-0004,2026-08-07,15260874,20:00,Eliteserien,Sandefjord Fotball,KFUM Oslo,Goal in both halves,Yes,1.65,model,0.5709,0-1,0-1,lost,100.0,0.0,-100.0
-SFF-260808-0005,2026-08-08,15235412,22:00,Brasileirão Betano,Grêmio,São Paulo,Goal in both halves,Yes,2.04,model,0.4619,0-1,2-1,won,100.0,204.0,104.0
-SFF-260809-0006,2026-08-09,15235463,17:00,Brasileirão Betano,Cruzeiro,Mirassol,Total goals,Over 2.5,1.95,real,0.4868,1-1,3-1,won,100.0,195.0,95.0
-SFF-260810-0007,2026-08-10,15235407,00:30,Brasileirão Betano,Red Bull Bragantino,Corinthians,At least one team to score 1.5,Yes,1.96,model,0.4821,0-0,0-2,won,100.0,196.0,96.0
-SFF-260813-0008,2026-08-13,16629408,19:15,Saudi Pro League,Abha,Al-Hazem,Draw no bet,Al-Hazem,1.83,real,0.5,0-2,1-2,won,100.0,183.0,83.0
-SFF-260814-0009,2026-08-14,16629416,21:00,Saudi Pro League,Al-Hilal,Al Faisaly,HT/FT,Al-Hilal / Al-Hilal,1.61,model,0.587,3-0,4-2,won,100.0,161.0,61.0
-SFF-260815-0010,2026-08-15,16629419,21:00,Saudi Pro League,Al-Nassr,Al-Fateh,Team goals range 1-3,Al-Nassr: yes,1.55,model,0.6104,2-0,3-0,won,100.0,155.0,55.0
-SFF-260816-0011,2026-08-16,16450752,17:30,Liga Portugal Betclic,CD Nacional,Estoril Praia,At least one team to score 1.5,Yes,1.53,model,0.6185,0-0,2-0,won,100.0,153.0,53.0
-SFF-260817-0012,2026-08-17,15235443,00:30,Brasileirão Betano,Vitória,Botafogo,Goal in both halves,Yes,1.84,model,0.5137,1-0,1-0,lost,100.0,0.0,-100.0
-SFF-260818-0013,2026-08-18,15235434,02:00,Brasileirão Betano,Internacional,Remo,Both teams to score,Yes,1.95,real,0.48,1-0,1-1,won,100.0,195.0,95.0
-SFF-260819-0014,2026-08-19,16421055,22:00,LaLiga,Atlético Madrid,Málaga CF,Team total,Atlético Madrid over 1.5,1.49,model,0.6331,0-0,2-0,won,100.0,149.0,49.0
-SFF-260820-0015,2026-08-20,16629420,21:00,Saudi Pro League,Al-Fayha,Al-Hilal,HT/FT,Al-Hilal / Al-Hilal,1.96,model,0.4823,0-1,0-3,won,100.0,196.0,96.0
-SFF-260821-0016,2026-08-21,16361888,21:45,Pro League,Standard Liège,RAAL La Louvière,Team total,Standard Liège over 1.5,2.02,model,0.467,0-0,2-0,won,100.0,202.0,102.0
-SFF-260822-0017,2026-08-22,16316766,22:00,VriendenLoterij Eredivisie,SC Heerenveen,PEC Zwolle,Team total,PEC Zwolle over 0.5,1.43,model,0.6587,0-0,0-2,won,100.0,143.0,43.0
-SFF-260823-0018,2026-08-23,16450762,22:30,Liga Portugal Betclic,FC Porto,FC Arouca,Team total,FC Porto over 1.5,1.42,model,0.6633,0-0,2-0,won,100.0,142.0,42.0
-SFF-260824-0019,2026-08-24,16287059,19:00,DFB Pokal,FC Würzburger Kickers,1. FC Köln,Team goals range 1-3,FC Würzburger Kickers: yes,1.54,model,0.6131,1-0,1-2,won,100.0,154.0,54.0
-SFF-260825-0020,2026-08-25,16798242,21:45,EFL Cup,Barnsley,Crewe Alexandra,1X2,Barnsley to win,1.61,real,0.5681,3-1,3-2,won,100.0,161.0,61.0
-SFF-260826-0021,2026-08-26,16629436,19:00,Saudi Pro League,Al Faisaly,Al-Fateh,Double chance,Al Faisaly or draw,1.53,real,0.6147,1-1,1-1,won,100.0,153.0,53.0
-SFF-260827-0022,2026-08-27,16815992,21:30,LaLiga,Celta Vigo,Osasuna,Each half under 1.5,No,1.73,model,0.5443,1-0,1-2,won,100.0,173.0,73.0
-SFF-260828-0023,2026-08-28,16434087,21:30,Bundesliga,FC Bayern München,VfB Stuttgart,Team goals range 1-3,FC Bayern München: yes,1.69,model,0.5572,1-0,5-1,lost,100.0,0.0,-100.0
-SFF-260829-0024,2026-08-29,16310929,21:45,Ligue 1,Stade Brestois,Toulouse,At least one team to score 1.5,Yes,1.51,model,0.6238,1-1,2-2,won,100.0,151.0,51.0
-SFF-260830-0025,2026-08-30,15260889,18:00,Eliteserien,Tromsø IL,Sarpsborg 08,Double chance,Sarpsborg 08 or draw,1.95,real,0.4813,0-0,0-0,won,100.0,195.0,95.0
-SFF-260831-0026,2026-08-31,16284976,19:30,Serie A,Lecce,AS Roma,Both teams to score,Yes,1.95,real,0.48,0-3,0-4,lost,100.0,0.0,-100.0
-SFF-260901-0027,2026-09-01,16629470,21:00,Saudi Pro League,Al-Hilal,Al-Ahli,Total goals,Over 2.5,1.5,real,0.625,2-0,3-0,won,100.0,150.0,50.0
-SFF-260902-0028,2026-09-02,16361996,21:45,Scottish Premiership,Dundee FC,St. Johnstone,Draw no bet,Dundee FC,1.83,real,0.5,0-0,1-1,void,100.0,100.0,0.0
-SFF-260903-0029,2026-09-03,16362004,21:45,Scottish Premiership,Hibernian,Heart of Midlothian,Goal in both halves,Yes,1.59,model,0.5931,0-2,1-3,won,100.0,159.0,59.0
-SFF-260904-0030,2026-09-04,16450885,22:15,Liga Portugal Betclic,FC Porto,Moreirense,Team to score in both halves,FC Porto,1.77,model,0.5334,1-1,2-1,won,100.0,177.0,77.0
-SFF-260905-0031,2026-09-05,16361908,21:45,Pro League,Standard Liège,Royal Antwerp FC,Win at least one half,Standard Liège,1.55,model,0.6079,0-0,1-0,won,100.0,155.0,55.0
-SFF-260906-0032,2026-09-06,16361912,19:30,Pro League,RSC Anderlecht,KRC Genk,Draw no bet,RSC Anderlecht,1.73,real,0.5366,0-0,0-0,void,100.0,100.0,0.0
-SFF-260907-0033,2026-09-07,15235457,01:30,Brasileirão Betano,Corinthians,Chapecoense,Total goals,Over 2.5,1.8,real,0.5263,1-1,1-2,won,100.0,180.0,80.0
-SFF-260908-0034,2026-09-08,16950623,21:45,EFL Cup,Leyton Orient,Bradford City,Each half under 1.5,No,1.59,model,0.5917,1-1,1-3,won,100.0,159.0,59.0
-SFF-260909-0035,2026-09-09,16629487,21:00,Saudi Pro League,Al-Fateh,Al Diriyah,Team goals range 1-3,Al-Fateh: yes,1.43,model,0.6595,1-2,1-2,won,100.0,143.0,43.0
-SFF-260910-0036,2026-09-10,16939034,22:00,UEFA Champions League,Como,RB Leipzig,Goal in both halves,Yes,1.43,model,0.6579,2-0,4-1,won,100.0,143.0,43.0
-SFF-260911-0037,2026-09-11,16310954,21:45,Ligue 1,Stade Rennais,Olympique de Marseille,Win at least one half,Olympique de Marseille,2.04,model,0.4618,0-0,1-0,lost,100.0,0.0,-100.0
-SFF-260912-0038,2026-09-12,16434035,16:30,Bundesliga,TSG Hoffenheim,VfB Stuttgart,Double chance,TSG Hoffenheim or draw,1.4,real,0.6699,1-0,2-1,won,100.0,140.0,40.0
-SFF-260913-0039,2026-09-13,15260907,15:30,Eliteserien,Viking FK,Kristiansund BK,Team to score in both halves,Viking FK,1.63,model,0.5799,5-1,8-1,won,100.0,163.0,63.0
-SFF-260914-0040,2026-09-14,15260898,20:00,Eliteserien,Bodø/Glimt,Sandefjord Fotball,Team goals range 1-3,Sandefjord Fotball: yes,1.65,model,0.5709,1-0,3-2,won,100.0,165.0,65.0
-SFF-260915-0041,2026-09-15,16316775,21:00,VriendenLoterij Eredivisie,AFC Ajax,Willem II Tilburg,Both teams to score,No,1.95,real,0.48,2-0,5-1,lost,100.0,0.0,-100.0
-SFF-260916-0042,2026-09-16,16416346,22:30,LaLiga,FC Barcelona,Real Racing Club,Each half over 1.5,Yes,2.0,model,0.4726,4-1,7-2,won,100.0,200.0,100.0
-SFF-260917-0043,2026-09-17,16416338,22:30,LaLiga,Málaga CF,Villarreal,1X2,Villarreal to win,2.05,real,0.464,1-2,1-3,won,100.0,205.0,105.0
-SFF-260919-0044,2026-09-19,16316819,19:45,VriendenLoterij Eredivisie,Sparta Rotterdam,SC Heerenveen,Draw no bet,SC Heerenveen,1.83,real,0.5,0-2,0-4,won,100.0,183.0,83.0
-SFF-260920-0045,2026-09-20,15237988,22:00,Brasileirão Betano,Vitória,Cruzeiro,Both teams to score,Yes,1.61,real,0.5767,1-0,1-3,won,100.0,161.0,61.0
-SFF-260921-0046,2026-09-21,15235478,00:30,Brasileirão Betano,Flamengo,Red Bull Bragantino,Goal in both halves,Yes,1.52,model,0.6226,1-0,2-1,won,100.0,152.0,52.0
-SFF-261003-0047,2026-10-03,17108375,02:00,Brasileirão Betano,São Paulo,Santos,Both teams to score,Yes,1.91,real,0.5,1-1,1-2,won,100.0,191.0,91.0
-SFF-261004-0048,2026-10-04,17135943,00:30,Brasileirão Betano,Atlético Mineiro,Red Bull Bragantino,1X2,Atlético Mineiro to win,2.1,real,0.4474,1-0,1-0,won,100.0,210.0,110.0
-SFF-261008-0049,2026-10-08,15237998,02:00,Brasileirão Betano,Vitória,Chapecoense,Each half under 1.5,No,1.46,model,0.6461,1-0,4-0,won,100.0,146.0,46.0
-SFF-261009-0050,2026-10-09,16450892,22:15,Liga Portugal Betclic,Sporting Braga,Sporting CP,Both teams to score,No,2.0,real,0.4667,1-0,1-3,lost,100.0,0.0,-100.0
-SFF-261010-0051,2026-10-10,16483686,16:00,Trendyol Süper Lig,Alanyaspor,Erzurumspor FK,Each half under 1.5,Yes,2.02,model,0.4681,0-0,0-0,won,100.0,202.0,102.0
-SFF-261011-0052,2026-10-11,16421067,17:15,LaLiga,Real Sociedad,Deportivo de La Coruña,At least one team to score 1.5,Yes,1.41,model,0.6703,2-0,3-2,won,100.0,141.0,41.0
-SFF-261012-0053,2026-10-12,16483687,20:00,Trendyol Süper Lig,Eyüpspor,Göztepe,Both teams to score,No,2.0,real,0.4634,0-1,0-4,won,100.0,200.0,100.0
-SFF-261013-0054,2026-10-13,15238004,03:00,Brasileirão Betano,Red Bull Bragantino,Cruzeiro,Win at least one half,Red Bull Bragantino,1.62,model,0.5828,3-1,4-2,won,100.0,162.0,62.0
-SFF-261014-0055,2026-10-14,16939041,22:00,UEFA Champions League,ŠK Slovan Bratislava,VfB Stuttgart,HT/FT,VfB Stuttgart / VfB Stuttgart,2.05,model,0.4603,0-1,0-3,won,100.0,205.0,105.0
-SFF-261015-0056,2026-10-15,16945606,22:00,UEFA Conference League,Atalanta,Pafos FC,Team to score in both halves,Atalanta,1.93,model,0.4883,3-0,3-1,lost,100.0,0.0,-100.0
-SFF-261017-0057,2026-10-17,16362032,17:00,Scottish Premiership,Hibernian,Falkirk FC,Total goals,Over 2.5,1.73,real,0.5487,1-2,1-2,won,100.0,173.0,73.0
-SFF-261018-0058,2026-10-18,15260928,18:00,Eliteserien,Vålerenga IF,SK Brann,Win at least one half,Vålerenga IF,1.64,model,0.5754,1-1,3-1,won,100.0,164.0,64.0
-SFF-261019-0059,2026-10-19,15238203,00:30,Brasileirão Betano,Bahia,Flamengo,1X2,Flamengo to win,1.86,real,0.5103,0-0,0-3,won,100.0,186.0,86.0
-SFF-261020-0060,2026-10-20,15238199,02:00,Brasileirão Betano,Corinthians,Vitória,Team total,Vitória over 0.5,1.83,model,0.5157,0-1,1-1,won,100.0,183.0,83.0
-SFF-261021-0061,2026-10-21,17122851,21:00,LaLiga,Levante UD,Athletic Club,At least one team to score 1.5,Yes,1.56,model,0.603,2-0,3-1,won,100.0,156.0,56.0
+SFF-260801-0001,2026-08-01,16362061,17:00,Scottish Premiership,Falkirk FC,St. Mirren,Double chance,St. Mirren or draw,1.73,real,0.5448,0-1,0-2,won,100.0,173.0,73.0
+SFF-260802-0002,2026-08-02,15260863,18:00,Eliteserien,KFUM Oslo,Kristiansund BK,Team total,KFUM Oslo over 1.5,1.69,model,0.5591,2-0,2-1,won,100.0,169.0,69.0
+SFF-260803-0003,2026-08-03,16362021,21:30,Scottish Premiership,Celtic,Dundee FC,Both teams to score,No,1.8,real,0.52,0-0,1-0,won,100.0,180.0,80.0
+SFF-260807-0004,2026-08-07,16316793,21:00,VriendenLoterij Eredivisie,SC Cambuur,Excelsior,Each half under 1.5,No,1.43,model,0.6613,0-3,0-4,won,100.0,143.0,43.0
+SFF-260808-0005,2026-08-08,16316772,19:45,VriendenLoterij Eredivisie,Go Ahead Eagles,Willem II Tilburg,Team goals range 1-3,Willem II Tilburg: yes,1.54,model,0.6131,1-1,4-1,won,100.0,154.0,54.0
+SFF-260809-0006,2026-08-09,16361876,17:00,Pro League,SV Zulte Waregem,KRC Genk,Team total,KRC Genk over 1.5,1.99,model,0.4751,0-1,2-1,lost,100.0,0.0,-100.0
+SFF-260810-0007,2026-08-10,15235407,00:30,Brasileirão Betano,Red Bull Bragantino,Corinthians,Each half under 1.5,No,1.96,model,0.4804,0-0,0-2,won,100.0,196.0,96.0
+SFF-260813-0008,2026-08-13,16629408,19:15,Saudi Pro League,Abha,Al-Hazem,Double chance,Al-Hazem or draw,1.4,real,0.6623,0-2,1-2,won,100.0,140.0,40.0
+SFF-260814-0009,2026-08-14,15260882,20:00,Eliteserien,Rosenborg BK,Viking FK,Team total,Rosenborg BK over 1.5,1.76,model,0.5372,1-0,2-1,won,100.0,176.0,76.0
+SFF-260815-0010,2026-08-15,15235422,22:30,Brasileirão Betano,Fluminense,Palmeiras,Goal in both halves,Yes,2.02,model,0.4673,1-1,3-2,won,100.0,202.0,102.0
+SFF-260816-0011,2026-08-16,16483707,19:00,Trendyol Süper Lig,Başakşehir FK,Kocaelispor,Team total,Başakşehir FK over 1.5,1.89,model,0.499,1-0,2-0,won,100.0,189.0,89.0
+SFF-260817-0012,2026-08-17,15235426,00:30,Brasileirão Betano,Mirassol,Flamengo,Double chance,Mirassol or draw,1.91,real,0.4879,0-1,1-5,lost,100.0,0.0,-100.0
+SFF-260818-0013,2026-08-18,15235434,02:00,Brasileirão Betano,Internacional,Remo,Goal in both halves,Yes,1.72,model,0.5477,1-0,1-1,won,100.0,172.0,72.0
+SFF-260820-0014,2026-08-20,16416292,22:00,LaLiga,Rayo Vallecano,Deportivo Alavés,Each half under 1.5,No,1.84,model,0.513,0-0,1-1,won,100.0,184.0,84.0
+SFF-260821-0015,2026-08-21,16629421,19:00,Saudi Pro League,Al-Riyadh,Al-Nassr,Both teams to score,No,1.91,real,0.4853,0-2,0-4,won,100.0,191.0,91.0
+SFF-260822-0016,2026-08-22,16450759,17:30,Liga Portugal Betclic,CS Marítimo,Académico Viseu FC,At least one team to score 1.5,Yes,1.7,model,0.5548,0-2,2-2,won,100.0,170.0,70.0
+SFF-260823-0017,2026-08-23,16283047,19:30,Serie A,Venezia,Lecce,Team total,Lecce over 0.5,1.49,model,0.6321,0-0,0-2,won,100.0,149.0,49.0
+SFF-260824-0018,2026-08-24,16450758,22:15,Liga Portugal Betclic,Gil Vicente,Casa Pia,Total goals,Over 1.5,1.44,real,0.6451,2-0,2-0,won,100.0,144.0,44.0
+SFF-260825-0019,2026-08-25,16798251,21:45,EFL Cup,Fleetwood Town,Shrewsbury Town,Goal in both halves,Yes,1.87,model,0.5037,3-0,4-0,won,100.0,187.0,87.0
+SFF-260826-0020,2026-08-26,16629437,21:00,Saudi Pro League,Al Diriyah,Al-Kholood,Both teams to score,No,2.0,real,0.4634,0-0,1-1,lost,100.0,0.0,-100.0
+SFF-260827-0021,2026-08-27,16798241,22:00,EFL Cup,Fulham,AFC Wimbledon,Team goals range 1-3,AFC Wimbledon: no,1.88,model,0.5023,2-0,3-0,won,100.0,188.0,88.0
+SFF-260828-0022,2026-08-28,16629463,21:00,Saudi Pro League,Al-Khaleej,Al-Hilal,HT/FT,Al-Hilal / Al-Hilal,1.94,model,0.4858,1-5,1-5,won,100.0,194.0,94.0
+SFF-260829-0023,2026-08-29,16434022,16:30,Bundesliga,1. FC Köln,TSG Hoffenheim,Double chance,1. FC Köln or draw,1.7,real,0.5546,0-1,3-2,won,100.0,170.0,70.0
+SFF-260830-0024,2026-08-30,16629469,21:00,Saudi Pro League,Al-Qadsiah,Al Faisaly,Team goals range 1-3,Al Faisaly: yes,1.58,model,0.5972,2-1,3-1,won,100.0,158.0,58.0
+SFF-260831-0025,2026-08-31,16450844,22:15,Liga Portugal Betclic,Sporting Braga,Vitória SC,Each half under 1.5,Yes,2.07,model,0.4557,0-0,1-0,won,100.0,207.0,107.0
+SFF-260901-0026,2026-09-01,15235461,02:00,Brasileirão Betano,Remo,Coritiba,Draw no bet,Remo,1.44,real,0.6451,0-0,2-3,lost,100.0,0.0,-100.0
+SFF-260902-0027,2026-09-02,16851487,19:00,Coppa Italia,Udinese,Venezia,Team total,Udinese over 1.5,1.81,model,0.5221,1-1,2-1,won,100.0,181.0,81.0
+SFF-260903-0028,2026-09-03,16629471,18:55,Saudi Pro League,Al-Fayha,Al-Kholood,Each half under 1.5,No,1.54,model,0.6141,1-1,2-2,won,100.0,154.0,54.0
+SFF-260904-0029,2026-09-04,15260893,20:00,Eliteserien,Fredrikstad FK,Bodø/Glimt,HT/FT,Bodø/Glimt / Bodø/Glimt,1.94,model,0.4874,0-1,1-2,won,100.0,194.0,94.0
+SFF-260905-0030,2026-09-05,16450881,17:30,Liga Portugal Betclic,CF Estrela Amadora,Famalicão,At least one team to score 1.5,Yes,1.66,model,0.5676,0-1,2-2,won,100.0,166.0,66.0
+SFF-260906-0031,2026-09-06,15260895,20:15,Eliteserien,Kristiansund BK,Tromsø IL,Goal in both halves,Yes,1.69,model,0.5571,1-0,2-0,won,100.0,169.0,69.0
+SFF-260907-0032,2026-09-07,16483658,20:00,Trendyol Süper Lig,Göztepe,Gaziantep FK,Total goals,Over 2.5,1.95,real,0.4868,0-4,2-4,won,100.0,195.0,95.0
+SFF-260908-0033,2026-09-08,16950624,21:45,EFL Cup,Sunderland,Hull City,Both teams to score,No,1.91,real,0.5,0-0,1-0,won,100.0,191.0,91.0
+SFF-260909-0034,2026-09-09,16956658,22:00,Scottish Premiership,St. Johnstone,Celtic,Team total,St. Johnstone over 0.5,1.49,model,0.6321,0-0,0-1,lost,100.0,0.0,-100.0
+SFF-260911-0035,2026-09-11,16653096,18:25,Saudi Pro League,Al-Qadsiah,Al-Ettifaq,Both teams to score,Yes,1.61,real,0.5767,2-1,3-3,won,100.0,161.0,61.0
+SFF-260912-0036,2026-09-12,15260904,19:00,Eliteserien,Rosenborg BK,Tromsø IL,1X2,Rosenborg BK to win,1.65,real,0.5704,4-0,5-3,won,100.0,165.0,65.0
+SFF-260913-0037,2026-09-13,15235470,02:30,Brasileirão Betano,Botafogo,Red Bull Bragantino,Goal in both halves,Yes,1.69,model,0.5571,0-1,1-1,won,100.0,169.0,69.0
+SFF-260914-0038,2026-09-14,16285011,19:30,Serie A,Como,Parma,Team total,Parma over 0.5,2.09,model,0.4512,1-0,2-1,won,100.0,209.0,109.0
+SFF-260915-0039,2026-09-15,16905606,22:00,Coppa Italia,Fiorentina,Pisa,Team total,Fiorentina over 1.5,1.46,model,0.6454,1-0,3-0,won,100.0,146.0,46.0
+SFF-260916-0040,2026-09-16,16950626,21:45,EFL Cup,Fleetwood Town,Sheffield United,Both teams to score,No,2.05,real,0.4533,0-0,1-0,won,100.0,205.0,105.0
+SFF-260917-0041,2026-09-17,16945038,22:00,UEFA Europa League,Crystal Palace,Lech Poznań,Both teams to score,Yes,1.61,real,0.5767,3-0,4-0,lost,100.0,0.0,-100.0
+SFF-260919-0042,2026-09-19,16310958,21:45,Ligue 1,Le Mans,Lorient,Draw no bet,Le Mans,2.0,real,0.4634,1-0,2-1,won,100.0,200.0,100.0
+SFF-260920-0043,2026-09-20,15260909,18:00,Eliteserien,Sandefjord Fotball,IK Start,Team total,Sandefjord Fotball over 1.5,1.92,model,0.4911,0-0,3-0,won,100.0,192.0,92.0
+SFF-260921-0044,2026-09-21,15237987,01:30,Brasileirão Betano,Athletico,Bahia,Total goals,Over 2.5,1.9,real,0.5,1-1,2-1,won,100.0,190.0,90.0
+SFF-261003-0045,2026-10-03,17108375,02:00,Brasileirão Betano,São Paulo,Santos,At least one team to score 1.5,Yes,1.62,model,0.5824,1-1,1-2,won,100.0,162.0,62.0
+SFF-261004-0046,2026-10-04,17135943,00:30,Brasileirão Betano,Atlético Mineiro,Red Bull Bragantino,Both teams to score,No,2.1,real,0.4425,1-0,1-0,won,100.0,210.0,110.0
+SFF-261008-0047,2026-10-08,15237995,03:30,Brasileirão Betano,Cruzeiro,São Paulo,1X2,Cruzeiro to win,1.79,real,0.5277,1-0,2-0,won,100.0,179.0,79.0
+SFF-261009-0048,2026-10-09,15237997,02:00,Brasileirão Betano,Athletico,Atlético Mineiro,Goal in both halves,Yes,1.74,model,0.543,1-1,2-2,won,100.0,174.0,74.0
+SFF-261010-0049,2026-10-10,16421060,19:30,LaLiga,FC Barcelona,Getafe,Both teams to score,Yes,1.95,real,0.48,2-0,3-0,lost,100.0,0.0,-100.0
+SFF-261011-0050,2026-10-11,15260919,20:15,Eliteserien,Lillestrøm SK,Molde FK,Win at least one half,Lillestrøm SK,1.67,model,0.5664,1-2,2-2,won,100.0,167.0,67.0
+SFF-261012-0051,2026-10-12,16450894,22:15,Liga Portugal Betclic,Famalicão,FC Alverca,Both teams to score,Yes,1.8,real,0.52,1-1,1-4,won,100.0,180.0,80.0
+SFF-261013-0052,2026-10-13,16939003,19:45,UEFA Champions League,RC Lens,Sporting CP,Draw no bet,Sporting CP,1.91,real,0.4853,0-1,0-2,won,100.0,191.0,91.0
+SFF-261014-0053,2026-10-14,16938869,22:00,UEFA Champions League,Real Betis,FC Porto,Both teams to score,Yes,1.57,real,0.5889,0-0,3-2,won,100.0,157.0,57.0
+SFF-261015-0054,2026-10-15,16945629,19:45,UEFA Conference League,Panathinaikos FC,FK Borac Banja Luka,Team goals range 1-3,FK Borac Banja Luka: yes,1.99,model,0.4735,1-0,2-1,won,100.0,199.0,99.0
+SFF-261016-0055,2026-10-16,16434063,21:30,Bundesliga,Eintracht Frankfurt,1. FC Köln,1X2,Eintracht Frankfurt to win,1.75,real,0.5398,0-0,1-0,won,100.0,175.0,75.0
+SFF-261017-0056,2026-10-17,16363882,17:00,Premier League,Brentford,Liverpool FC,Win at least one half,Liverpool FC,1.71,model,0.5521,1-0,1-2,won,100.0,171.0,71.0
+SFF-261018-0057,2026-10-18,16310975,16:00,Ligue 1,Angers,Olympique de Marseille,Team total,Olympique de Marseille over 1.5,1.71,model,0.5519,1-2,2-5,won,100.0,171.0,71.0
+SFF-261019-0058,2026-10-19,16653122,21:00,Saudi Pro League,Al-Hilal,Al-Hazem,Team goals range 1-3,Al-Hilal: yes,1.81,model,0.5204,0-0,1-0,won,100.0,181.0,81.0
+SFF-261020-0059,2026-10-20,16653126,18:00,Saudi Pro League,Al Diriyah,Al-Riyadh,At least one team to score 1.5,Yes,1.45,model,0.6489,1-0,1-0,lost,100.0,0.0,-100.0
+SFF-261021-0060,2026-10-21,16939033,19:45,UEFA Champions League,Como,Manchester United,Win at least one half,Como,1.67,model,0.5639,1-0,4-1,won,100.0,167.0,67.0
