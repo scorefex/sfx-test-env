@@ -60,4 +60,3 @@ SFP-261017-028,1,16421068,2026-10-17,19:30,LaLiga,Real Betis,FC Barcelona,Both t
 SFP-261017-028,2,16285043,2026-10-17,21:45,Serie A,AS Roma,Genoa,Win at least one half,AS Roma,1.36,model,0.6955,0-0,2-0,won
 SFP-261021-029,1,17122851,2026-10-21,21:00,LaLiga,Levante UD,Athletic Club,Each half under 1.5,No,1.56,model,0.603,2-0,3-1,won
 SFP-261021-030,1,16939033,2026-10-21,19:45,UEFA Champions League,Como,Manchester United,Team total,Como over 1.5,1.92,model,0.4911,1-0,4-1,won
-SFP-261026-999,1,99999999,2026-10-26,20:00,Premier League,Arsenal,Chelsea,1X2,TEST EDIT Arsenal to win,1.5,real,0.6,1-0,2-0,won
