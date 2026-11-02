@@ -1,6 +1,6 @@
-# Every day at 4 am Amman time (01:00 UTC: Jordan stays on UTC+3 all year) copies the five dashboard Google Sheets into
-# data/, and publishes the site if anything changed. GitHub can start a scheduled job some minutes late. To run it now:
-# the repo's Actions tab, "Update dashboard data", "Run workflow".
+# Every day at 4 am Amman time (01:00 UTC: Jordan stays on UTC+3 all year) copies the three dashboard Google Sheets into
+# data/, works out the two daily summaries from them, and publishes the site if anything changed. GitHub can start a
+# scheduled job some minutes late. To run it now: the repo's Actions tab, "Update dashboard data", "Run workflow".
 name: Update dashboard data
 
 on:
