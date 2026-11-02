@@ -1,0 +1,40 @@
+# Every day at 4 am Amman time (01:00 UTC: Jordan stays on UTC+3 all year) copies the five dashboard Google Sheets into
+# data/, and publishes the site if anything changed. GitHub can start a scheduled job some minutes late. To run it now:
+# the repo's Actions tab, "Update dashboard data", "Run workflow".
+name: Update dashboard data
+
+on:
+  schedule:
+    - cron: "0 1 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Copy the Sheets into data/
+        run: python3 .github/scripts/update_dashboard_data.py
+
+      - name: Publish if anything changed
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          git add data
+          if git diff --cached --quiet; then
+            echo "The Sheets have not changed."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Dashboard data from the Google Sheets"
+          git pull --rebase origin main
+          git push origin main
+          # A push made with this job's own token does not rebuild the site by itself
+          gh api -X POST "repos/${{ github.repository }}/pages/builds"
