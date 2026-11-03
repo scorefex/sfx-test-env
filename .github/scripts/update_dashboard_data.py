@@ -1,6 +1,7 @@
 """
 Copies the three dashboard Google Sheets into data/ and works out the two daily summaries from them: the files the website
-reads. Run every day at 5:29 am by .github/workflows/update-dashboard-data.yml. --check reads and checks without writing.
+reads. Run every day at 5:29 am by .github/workflows/update-dashboard-data.yml. --check reads and checks without writing;
+--out <folder> writes there instead of data/ (the production repo keeps the site's source, so its files are in public/data).
 
 All or nothing: if any Sheet cannot be read or fails a check, no file is touched, the site keeps the previous day's data,
 and the run fails with a message naming the Sheet and row. So a half-typed row cannot reach the site, and neither can a
@@ -15,7 +16,7 @@ import urllib.error
 import urllib.request
 from pathlib import Path
 
-DATA = Path(__file__).resolve().parents[2] / "data"
+DATA = Path(sys.argv[sys.argv.index("--out") + 1]) if "--out" in sys.argv else Path(__file__).resolve().parents[2] / "data"
 SHEET_CSV = "https://docs.google.com/spreadsheets/d/{id}/export?format=csv&gid={gid}"
 TABLES = {
     "pro_parlays": ("1qnNvRu33vtqubE6mvAbq9o5x6_ZjNO4Fd4eD58QxNNg", 2122682249, "parlay_id,date,strategy,risk,legs,total_odds,fair_probability,stake_share,stake,result,payout,profit,balance_after"),
