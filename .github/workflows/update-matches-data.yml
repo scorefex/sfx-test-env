@@ -1,0 +1,44 @@
+# Every day at 4:05 am Amman time (01:05 UTC: Jordan stays on UTC+3 all year) takes the four website Google Sheets to the files
+# the Matches Schedule, Teams Performance and Players Performance pages read, and publishes the site if anything changed. Five
+# minutes after "Update dashboard data", so the two do not push at the same moment. GitHub can start a scheduled job some minutes
+# late. To run it now: the repo's Actions tab, "Update matches data", "Run workflow".
+name: Update matches data
+
+on:
+  schedule:
+    - cron: "5 1 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v5
+
+      - name: Take the Sheets to data/
+        run: python3 .github/scripts/update_matches_data.py
+
+      - name: Publish if anything changed
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          git add data
+          if git diff --cached --quiet; then
+            echo "The Sheets have not changed."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Matches, teams and players data from the Google Sheets"
+          for attempt in 1 2 3; do
+            git pull --rebase origin main && git push origin main && break
+            if [ "$attempt" = 3 ]; then exit 1; fi
+            sleep 20
+          done
+          # A push made with this job's own token does not rebuild the site by itself
+          gh api -X POST "repos/${{ github.repository }}/pages/builds"
