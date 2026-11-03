@@ -1,13 +1,19 @@
-# Every day at 4:05 am Amman time (01:05 UTC: Jordan stays on UTC+3 all year) takes the four website Google Sheets to the files
-# the Matches Schedule, Teams Performance and Players Performance pages read, and publishes the site if anything changed. Five
-# minutes after "Update dashboard data", so the two do not push at the same moment. GitHub can start a scheduled job some minutes
-# late. To run it now: the repo's Actions tab, "Update matches data", "Run workflow".
+# Every day the site shows the new data at 5:30 am Amman time (Jordan stays on UTC+3 all year): this takes the four website Google
+# Sheets to the files the Matches Schedule, Teams Performance and Players Performance pages read, and publishes the site if anything
+# changed. GitHub can start a scheduled job an hour late (53 minutes on 3 Nov 2026), so the job is asked for at 3:28 am and waits. It
+# reads the Sheets at 5:29 because the push and the site's rebuild take about a minute. "Update dashboard data" wakes at the same
+# moment, so a refused push is retried. To run it now: the repo's Actions tab, "Update matches data", "Run workflow".
 name: Update matches data
 
 on:
   schedule:
-    - cron: "5 1 * * *"
+    - cron: "28 0 * * *"
   workflow_dispatch:
+    inputs:
+      wait:
+        description: Wait until 5:29 am Amman time, as the daily run does
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -16,8 +22,17 @@ permissions:
 jobs:
   update:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 150
     steps:
+      - name: Wait until 5:29 am Amman time
+        if: github.event_name == 'schedule' || inputs.wait
+        run: |
+          seconds=$(( $(date -u -d "02:29" +%s) - $(date +%s) ))
+          if [ "$seconds" -gt 0 ]; then
+            echo "Waiting $seconds seconds"
+            sleep "$seconds"
+          fi
+
       - uses: actions/checkout@v5
 
       - name: Take the Sheets to data/
@@ -38,7 +53,7 @@ jobs:
           for attempt in 1 2 3; do
             git pull --rebase origin main && git push origin main && break
             if [ "$attempt" = 3 ]; then exit 1; fi
-            sleep 20
+            sleep 5
           done
           # A push made with this job's own token does not rebuild the site by itself
           gh api -X POST "repos/${{ github.repository }}/pages/builds"

@@ -1,6 +1,6 @@
 """
 Copies the three dashboard Google Sheets into data/ and works out the two daily summaries from them: the files the website
-reads. Run every day at 4 am by .github/workflows/update-dashboard-data.yml. --check reads and checks without writing.
+reads. Run every day at 5:29 am by .github/workflows/update-dashboard-data.yml. --check reads and checks without writing.
 
 All or nothing: if any Sheet cannot be read or fails a check, no file is touched, the site keeps the previous day's data,
 and the run fails with a message naming the Sheet and row. So a half-typed row cannot reach the site, and neither can a
