@@ -7,10 +7,12 @@ Schedule, Teams Performance and Players Performance pages read. Run every day by
     data/matches/perf/<league>_<season>.json   the match box's figures, opened when a match is clicked
     data/teams/<league>_<season>.json       one row per team
     data/players/<league>_<season>.json     one row per player
+    data/matches/odds.json                  the latest odds of the matches to come (and the last week's), for the Slip Builder
 
 All or nothing: if a Sheet cannot be read or fails a check, no file is touched, the site keeps the previous day's data, and
 the run fails with a message saying why. A Sheet that shrank by more than a fifth counts as a failed check. It is far more
-likely to be a half-written Sheet than a fifth of the season disappearing.
+likely to be a half-written Sheet than a fifth of the season disappearing. The odds are the one exception: they only fill
+in the Slip Builder's Odds Value, so an odds Sheet that cannot be read keeps the previous odds.json and stops nothing else.
 """
 import csv
 import io
@@ -32,7 +34,9 @@ TABLES = {
     "match_performance": ("1irqKm0TbBX6U2Focke4Yx23NekLSSRqbjNGleskPEmE", 0),
     "teams_performance": ("1PgTFrXVf2o6GyZvCAd0q4BNXvy_3FdASs3RTZZImTOM", 0),
     "players_performance": ("1d5WaT2ahjY262HkMJQfAWgOzTtlmY8DUzUwmVR93X1g", 0),
+    "match_odds": ("1Q2K-UgLgUOCrc3FFrPjg-r0Ql3EMIH2SuGvFgniNDKE", 0),
 }
+ODDS_NEEDS = {"match_id", "market_name", "choice_group", "choice_name", "decimal_value", "snapshot_date", "snapshot_time"}
 SCHEDULE_NEEDS = {"date", "time", "league_name", "league_log", "round_name", "round_number", "match_id", "team_1", "team_2", "match_status", "league_id",
                   "league_rank", "season_id", "season_number", "ongoing", "team_1_id", "team_2_id", "team_1_goals", "team_2_goals", "team_1_ht", "team_2_ht",
                   "team_1_pens", "team_2_pens", "completion"}
@@ -129,6 +133,33 @@ def write_json(path, value):
     path.write_text(json.dumps(value, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
 
 
+def read_odds():
+    """The match_odds Sheet as {"updated", "matches": {match_id: [[market, line, choice, odds], ...]}}, or None with the
+    reason. An empty Sheet is fine (no match priced yet); a Sheet that cannot be read or has other columns is not."""
+    try:
+        sheet_id, gid = TABLES["match_odds"]
+        text = fetch(SHEET_CSV.format(id=sheet_id, gid=gid))
+    except Exception as e:
+        return None, f"match_odds: not read ({e})"
+    rows = list(csv.reader(io.StringIO(text)))
+    if not rows or not ODDS_NEEDS <= set(rows[0]):
+        return None, f"match_odds: the columns are not the expected ones (is it still viewable by link?): {text[:80]!r}"
+    head = rows[0]
+    matches, updated = {}, ""
+    for values in rows[1:]:
+        r = dict(zip(head, values))
+        try:
+            price = float(r["decimal_value"])
+        except ValueError:
+            continue
+        if price < 1:
+            continue
+        matches.setdefault(r["match_id"], []).append([r["market_name"], r["choice_group"], r["choice_name"], price])
+        updated = max(updated, f"{r['snapshot_date']} {r['snapshot_time']}")
+    print(f"match_odds: {sum(len(v) for v in matches.values()):,} prices for {len(matches):,} matches")
+    return {"updated": updated, "matches": matches}, None
+
+
 def main():
     problems = []
     schedule_rows, found = read_table("events_schedule", SCHEDULE_NEEDS)
@@ -139,6 +170,9 @@ def main():
     problems += found
     player_rows, found = read_table("players_performance", PLAYER_NEEDS)
     problems += found
+    odds, odds_problem = read_odds()
+    if odds_problem:
+        print(f"WARNING, the odds keep yesterday's file: {odds_problem}")
 
     schedule = build_schedule(schedule_rows, problems) if schedule_rows else None
     previous_path = DATA / "matches" / "schedule.json"
@@ -169,6 +203,8 @@ def main():
             shutil.rmtree(target)
         for name, group in by_season(rows).items():
             write_json(target / f"{name}.json", compact(group))
+    if odds is not None:
+        write_json(DATA / "matches" / "odds.json", odds)
     print("Written.")
 
 
