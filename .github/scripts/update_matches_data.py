@@ -40,7 +40,7 @@ TABLES = {
 # The live script in the owner's Google account (website tools/live_data/live_data.gs), which serves the same files within
 # 5 minutes of the Sheets changing. Its version is written beside the files, so a visitor's browser switches to the script
 # only when it has something newer than these. Empty: no version.json, and the site reads these files alone.
-LIVE_DATA_URL = ""
+LIVE_DATA_URL = "https://script.google.com/macros/s/AKfycbx0tInWTYIz5VIpEBxepMO-v4tk8Qf3rfmMqTWS_7Z6EKG_AqX6TAHUud-dtnu28BpH/exec"
 ODDS_NEEDS = {"match_id", "market_name", "choice_group", "choice_name", "decimal_value", "snapshot_date", "snapshot_time"}
 SCHEDULE_NEEDS = {"date", "time", "league_name", "league_log", "round_name", "round_number", "match_id", "team_1", "team_2", "match_status", "league_id",
                   "league_rank", "season_id", "season_number", "ongoing", "team_1_id", "team_2_id", "team_1_goals", "team_2_goals", "team_1_ht", "team_2_ht",
