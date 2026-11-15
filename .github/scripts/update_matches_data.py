@@ -8,6 +8,7 @@ Schedule, Teams Performance and Players Performance pages read. Run every day by
     data/teams/<league>_<season>.json       one row per team
     data/players/<league>_<season>.json     one row per player
     data/matches/odds.json                  the latest odds of the matches to come (and the last week's), for the Slip Builder
+    data/matches/version.json               which version of the live script's data these files match (see LIVE_DATA_URL)
 
 All or nothing: if a Sheet cannot be read or fails a check, no file is touched, the site keeps the previous day's data, and
 the run fails with a message saying why. A Sheet that shrank by more than a fifth counts as a failed check. It is far more
@@ -36,6 +37,10 @@ TABLES = {
     "players_performance": ("1d5WaT2ahjY262HkMJQfAWgOzTtlmY8DUzUwmVR93X1g", 0),
     "match_odds": ("1Q2K-UgLgUOCrc3FFrPjg-r0Ql3EMIH2SuGvFgniNDKE", 0),
 }
+# The live script in the owner's Google account (website tools/live_data/live_data.gs), which serves the same files within
+# 5 minutes of the Sheets changing. Its version is written beside the files, so a visitor's browser switches to the script
+# only when it has something newer than these. Empty: no version.json, and the site reads these files alone.
+LIVE_DATA_URL = ""
 ODDS_NEEDS = {"match_id", "market_name", "choice_group", "choice_name", "decimal_value", "snapshot_date", "snapshot_time"}
 SCHEDULE_NEEDS = {"date", "time", "league_name", "league_log", "round_name", "round_number", "match_id", "team_1", "team_2", "match_status", "league_id",
                   "league_rank", "season_id", "season_number", "ongoing", "team_1_id", "team_2_id", "team_1_goals", "team_2_goals", "team_1_ht", "team_2_ht",
@@ -160,8 +165,23 @@ def read_odds():
     return {"updated": updated, "matches": matches}, None
 
 
+def live_version():
+    """The live script's version, asked BEFORE the Sheets are read: should they change during this run, the version
+    written is the older one, so the site still fetches the newer data from the script. None when there is no script."""
+    if not LIVE_DATA_URL:
+        return None
+    try:
+        version = json.loads(fetch(f"{LIVE_DATA_URL}?path=version")).get("version") or None
+        print(f"live script: version {version}")
+        return version
+    except Exception as e:
+        print(f"WARNING, no version.json this time: the live script did not answer ({e})")
+        return None
+
+
 def main():
     problems = []
+    version = live_version()
     schedule_rows, found = read_table("events_schedule", SCHEDULE_NEEDS)
     problems += found
     perf_rows, found = read_table("match_performance", PERF_NEEDS)
@@ -205,6 +225,8 @@ def main():
             write_json(target / f"{name}.json", compact(group))
     if odds is not None:
         write_json(DATA / "matches" / "odds.json", odds)
+    if version:
+        write_json(DATA / "matches" / "version.json", {"version": version})
     print("Written.")
 
 
