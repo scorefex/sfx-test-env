@@ -1,64 +1,66 @@
 parlay_id,leg_no,match_id,match_date,kickoff,league,home_team,away_team,market,selection,odds,odds_source,fair_probability,ht_score,final_score,result
-SFP-260815-001,1,16421047,2026-08-15,20:30,LaLiga,Deportivo Alavés,Getafe,Double chance,Deportivo Alavés or draw,1.25,real,0.746,0-0,3-0,won
-SFP-260815-001,2,16421052,2026-08-15,22:30,LaLiga,Sevilla,Rayo Vallecano,Double chance,Sevilla or draw,1.33,real,0.704,0-1,2-1,won
-SFP-260816-002,1,16421061,2026-08-16,18:00,LaLiga,Real Racing Club,Villarreal,Team goals range 1-3,Villarreal: yes,1.3,model,0.7258,2-2,2-2,won
-SFP-260816-002,2,16421053,2026-08-16,20:00,LaLiga,Espanyol,Levante UD,Double chance,Espanyol or draw,1.29,real,0.735,2-0,3-0,won
-SFP-260822-003,1,16283040,2026-08-22,21:45,Serie A,Genoa,SSC Napoli,Both teams to score,No,1.67,real,0.5575,0-0,0-2,won
-SFP-260822-004,1,16363636,2026-08-22,17:00,Premier League,Ipswich Town,Sunderland,Draw no bet,Sunderland,1.83,real,0.5,1-1,2-1,lost
-SFP-260823-005,1,16311125,2026-08-23,21:45,Ligue 1,Stade Rennais,Paris Saint-Germain,Both teams to score,Yes,1.61,real,0.5767,2-0,2-2,won
-SFP-260823-006,1,16416300,2026-08-23,20:30,LaLiga,Getafe,Real Racing Club,Double chance,No draw,1.36,real,0.6855,0-0,1-0,won
-SFP-260823-006,2,16416311,2026-08-23,22:30,LaLiga,Elche,FC Barcelona,Team total,FC Barcelona over 1.5,1.35,model,0.697,0-2,0-5,won
-SFP-260829-007,1,16416309,2026-08-29,18:00,LaLiga,Levante UD,Real Betis,Team total,Real Betis over 0.5,1.23,model,0.7654,2-2,5-2,won
-SFP-260829-007,2,16284979,2026-08-29,19:30,Serie A,Monza,Udinese,Team total,Monza over 0.5,1.38,model,0.6834,1-3,2-3,won
-SFP-260829-008,1,16284973,2026-08-29,19:30,Serie A,Fiorentina,Frosinone,Double chance,No draw,1.22,real,0.765,0-2,0-3,won
-SFP-260829-008,2,16310929,2026-08-29,21:45,Ligue 1,Stade Brestois,Toulouse,At least one team to score 1.5,Yes,1.51,model,0.6238,1-1,2-2,won
-SFP-260830-009,1,16310935,2026-08-30,18:15,Ligue 1,Stade Rennais,Le Mans,Double chance,No draw,1.17,real,0.8082,2-1,3-2,won
-SFP-260830-009,2,16434039,2026-08-30,18:30,Bundesliga,FC Augsburg,FC Schalke 04,Team goals range 1-3,FC Augsburg: yes,1.31,model,0.7176,1-0,3-0,won
-SFP-260830-010,1,16363249,2026-08-30,16:00,Premier League,Chelsea,Brighton & Hove Albion,Team total,Brighton & Hove Albion over 0.5,1.35,model,0.6988,3-1,4-3,won
-SFP-260830-010,2,16434029,2026-08-30,16:30,Bundesliga,SC Freiburg,SV Werder Bremen,Double chance,SC Freiburg or draw,1.18,real,0.7885,2-0,4-1,won
-SFP-260830-010,3,16363253,2026-08-30,18:30,Premier League,Manchester United,Ipswich Town,Double chance,No draw,1.14,real,0.8264,1-1,5-2,won
-SFP-260904-011,1,16285001,2026-09-04,21:45,Serie A,Genoa,Como,Team total,Genoa over 0.5,1.65,model,0.5726,1-3,1-4,won
-SFP-260904-012,1,16434036,2026-09-04,21:30,Bundesliga,VfB Stuttgart,1. FC Köln,Double chance,No draw,1.17,real,0.8058,1-0,4-1,won
-SFP-260904-012,2,16416315,2026-09-04,22:00,LaLiga,Real Betis,Real Madrid,Each half under 1.5,No,1.22,model,0.7728,0-0,1-0,lost
-SFP-260904-012,3,16310944,2026-09-04,22:05,Ligue 1,Paris Saint-Germain,AS Monaco,1X2,Paris Saint-Germain to win,1.33,real,0.7046,1-0,1-2,lost
-SFP-260905-013,1,16434028,2026-09-05,16:30,Bundesliga,Borussia M'gladbach,SV 07 Elversberg,Team total,Borussia M'gladbach over 1.5,1.63,model,0.5803,2-1,3-4,won
-SFP-260905-014,1,16363637,2026-09-05,14:30,Premier League,Newcastle United,Bournemouth,Double chance,Newcastle United or draw,1.33,real,0.7052,1-2,2-2,won
-SFP-260905-014,2,16434101,2026-09-05,16:30,Bundesliga,SV Werder Bremen,RB Leipzig,Team goals range 1-3,RB Leipzig: yes,1.32,model,0.7162,1-0,3-1,won
-SFP-260905-014,3,16310938,2026-09-05,21:45,Ligue 1,Le Havre,Stade Brestois,Each half over 1.5,No,1.09,model,0.8671,0-1,1-2,won
-SFP-260906-015,1,16434030,2026-09-06,16:30,Bundesliga,Hamburger SV,1. FSV Mainz 05,Total goals,Over 1.5,1.22,real,0.78,0-2,0-5,won
-SFP-260906-015,2,16310937,2026-09-06,18:15,Ligue 1,Angers,Stade Rennais,Team total,Stade Rennais over 0.5,1.11,model,0.8466,1-2,1-2,won
-SFP-260906-015,3,16363257,2026-09-06,18:30,Premier League,Arsenal,Chelsea,Double chance,Arsenal or draw,1.18,real,0.7973,1-1,2-1,won
-SFP-260906-016,1,16285000,2026-09-06,16:00,Serie A,Frosinone,Venezia,Team total,Venezia over 0.5,1.21,model,0.7769,2-0,3-2,won
-SFP-260906-016,2,16416325,2026-09-06,17:15,LaLiga,Valencia,FC Barcelona,Total goals,Over 1.5,1.11,real,0.854,0-2,0-5,won
-SFP-260906-016,3,16434021,2026-09-06,18:30,Bundesliga,Eintracht Frankfurt,FC Augsburg,Team goals range 1-3,Eintracht Frankfurt: yes,1.32,model,0.7126,1-0,1-4,won
-SFP-260912-017,1,16434037,2026-09-12,16:30,Bundesliga,Borussia Dortmund,SC Paderborn 07,Each half under 1.5,No,1.17,model,0.8034,1-0,3-0,won
-SFP-260912-017,2,16363643,2026-09-12,17:00,Premier League,Crystal Palace,Ipswich Town,At least one team to score 1.5,Yes,1.41,model,0.6674,1-2,2-3,won
-SFP-260912-018,1,16434035,2026-09-12,16:30,Bundesliga,TSG Hoffenheim,VfB Stuttgart,Double chance,No draw,1.22,real,0.7675,1-0,2-1,won
-SFP-260912-018,2,16285012,2026-09-12,19:00,Serie A,Lazio,AC Milan,Team total,AC Milan over 0.5,1.24,model,0.7595,2-0,2-2,won
-SFP-260912-018,3,16363647,2026-09-12,19:30,Premier League,Tottenham Hotspur,Everton,Double chance,Tottenham Hotspur or draw,1.29,real,0.7368,0-0,0-0,won
-SFP-260913-019,1,16363645,2026-09-13,18:30,Premier League,Manchester United,Manchester City,Total goals,Over 1.5,1.14,real,0.8279,0-0,0-1,lost
-SFP-260913-019,2,16310948,2026-09-13,21:45,Ligue 1,Stade Brestois,Paris Saint-Germain,Team total,Paris Saint-Germain over 1.5,1.2,model,0.7854,0-1,0-1,lost
-SFP-260913-019,3,16285013,2026-09-13,21:45,Serie A,Sassuolo,Juventus,Double chance,Juventus or draw,1.17,real,0.8117,0-0,3-2,lost
-SFP-260913-020,1,16285014,2026-09-13,16:00,Serie A,Lecce,Monza,Double chance,No draw,1.36,real,0.6852,3-1,3-2,won
-SFP-260913-020,2,16363642,2026-09-13,16:00,Premier League,Coventry City,Brighton & Hove Albion,Total goals,Over 1.5,1.2,real,0.7895,0-1,0-5,won
-SFP-260913-020,3,16434043,2026-09-13,16:30,Bundesliga,RB Leipzig,Hamburger SV,Each half under 1.5,No,1.2,model,0.7869,2-0,5-0,won
-SFP-260919-021,1,16434034,2026-09-19,19:30,Bundesliga,VfB Stuttgart,Borussia Dortmund,Double chance,Borussia Dortmund or draw,1.57,real,0.5919,0-0,0-1,won
-SFP-260919-022,1,16310958,2026-09-19,21:45,Ligue 1,Le Mans,Lorient,Win at least one half,Le Mans,1.95,model,0.4833,1-0,2-1,won
-SFP-261010-023,1,16434056,2026-10-10,16:30,Bundesliga,TSG Hoffenheim,Hamburger SV,Each half under 1.5,No,1.2,model,0.7869,1-1,2-3,won
-SFP-261010-023,2,16363873,2026-10-10,17:00,Premier League,Chelsea,Bournemouth,Team total,Bournemouth over 0.5,1.35,model,0.6988,2-0,5-1,won
-SFP-261010-024,1,16363871,2026-10-10,14:30,Premier League,Arsenal,Leeds United,Team goals range 1-3,Arsenal: yes,1.31,model,0.7193,0-0,2-1,won
-SFP-261010-024,2,16285036,2026-10-10,21:45,Serie A,SSC Napoli,Frosinone,Goal in both halves,Yes,1.43,model,0.6579,2-0,3-0,won
-SFP-261011-025,1,16363876,2026-10-11,16:00,Premier League,Hull City,Everton,Each half over 1.5,No,1.08,model,0.8703,0-0,2-2,won
-SFP-261011-025,2,16421054,2026-10-11,19:30,LaLiga,Real Betis,Osasuna,Double chance,No draw,1.18,real,0.7955,2-0,5-2,won
-SFP-261011-025,3,16421064,2026-10-11,22:00,LaLiga,Real Racing Club,Valencia,Team total,Valencia over 0.5,1.28,model,0.7342,1-1,2-2,won
-SFP-261011-026,1,16285031,2026-10-11,13:30,Serie A,Como,AS Roma,Team goals range 1-3,Como: yes,1.3,model,0.7249,0-0,0-0,lost
-SFP-261011-026,2,16421058,2026-10-11,15:00,LaLiga,Elche,Celta Vigo,Total goals,Over 1.5,1.29,real,0.7446,0-0,0-0,lost
-SFP-261011-026,3,16421067,2026-10-11,17:15,LaLiga,Real Sociedad,Deportivo de La Coruña,Double chance,Real Sociedad or draw,1.17,real,0.8034,2-0,3-2,won
-SFP-261017-027,1,16434066,2026-10-17,16:30,Bundesliga,SV 07 Elversberg,FC Augsburg,At least one team to score 1.5,Yes,1.28,model,0.737,3-1,4-3,won
-SFP-261017-027,2,16285039,2026-10-17,19:00,Serie A,Bologna,Inter,Team goals range 1-3,Inter: yes,1.31,model,0.7178,1-1,1-3,won
-SFP-261017-028,1,16421068,2026-10-17,19:30,LaLiga,Real Betis,FC Barcelona,Both teams to score,Yes,1.4,real,0.6627,1-2,2-5,won
-SFP-261017-028,2,16285043,2026-10-17,21:45,Serie A,AS Roma,Genoa,Win at least one half,AS Roma,1.36,model,0.6955,0-0,2-0,won
-SFP-261021-029,1,17122851,2026-10-21,21:00,LaLiga,Levante UD,Athletic Club,Each half under 1.5,No,1.56,model,0.603,2-0,3-1,won
-SFP-261021-030,1,16939033,2026-10-21,19:45,UEFA Champions League,Como,Manchester United,Team total,Como over 1.5,1.92,model,0.4911,1-0,4-1,won
-SFP-261101-031,1,16421098,2026-11-01,18:15,LaLiga,Real Racing Club,Real Madrid,1X2,Real Madrid to win,1.18,real,0.8025,0-3,0-3,won
-SFP-261101-031,2,16310997,2026-11-01,22:45,Ligue 1,Olympique de Marseille,Toulouse,Double chance,Olympique de Marseille or draw,1.28,real,0.7276,2-0,2-0,won
+SFP-260815-001,1,16421047,2026-08-15,20:30,LaLiga,Deportivo Alavés,Getafe,Double chance,Deportivo Alavés or draw,1.25,real,,0-0,3-0,won
+SFP-260815-001,2,16421052,2026-08-15,22:30,LaLiga,Sevilla,Rayo Vallecano,Double chance,Sevilla or draw,1.33,real,,0-1,2-1,won
+SFP-260816-002,1,16421061,2026-08-16,18:00,LaLiga,Real Racing Club,Villarreal,Team goals range 1-3,Villarreal: yes,1.3,model,,2-2,2-2,won
+SFP-260816-002,2,16421053,2026-08-16,20:00,LaLiga,Espanyol,Levante UD,Double chance,Espanyol or draw,1.29,real,,2-0,3-0,won
+SFP-260822-003,1,16283040,2026-08-22,21:45,Serie A,Genoa,SSC Napoli,Both teams to score,No,1.67,real,,0-0,0-2,won
+SFP-260822-004,1,16363636,2026-08-22,17:00,Premier League,Ipswich Town,Sunderland,Draw no bet,Sunderland,1.83,real,,1-1,2-1,lost
+SFP-260823-005,1,16311125,2026-08-23,21:45,Ligue 1,Stade Rennais,Paris Saint-Germain,Both teams to score,Yes,1.61,real,,2-0,2-2,won
+SFP-260823-006,1,16416300,2026-08-23,20:30,LaLiga,Getafe,Real Racing Club,Double chance,No draw,1.36,real,,0-0,1-0,won
+SFP-260823-006,2,16416311,2026-08-23,22:30,LaLiga,Elche,FC Barcelona,Team total,FC Barcelona over 1.5,1.35,model,,0-2,0-5,won
+SFP-260829-007,1,16416309,2026-08-29,18:00,LaLiga,Levante UD,Real Betis,Team total,Real Betis over 0.5,1.23,model,,2-2,5-2,won
+SFP-260829-007,2,16284979,2026-08-29,19:30,Serie A,Monza,Udinese,Team total,Monza over 0.5,1.38,model,,1-3,2-3,won
+SFP-260829-008,1,16284973,2026-08-29,19:30,Serie A,Fiorentina,Frosinone,Double chance,No draw,1.22,real,,0-2,0-3,won
+SFP-260829-008,2,16310929,2026-08-29,21:45,Ligue 1,Stade Brestois,Toulouse,At least one team to score 1.5,Yes,1.51,model,,1-1,2-2,won
+SFP-260830-009,1,16310935,2026-08-30,18:15,Ligue 1,Stade Rennais,Le Mans,Double chance,No draw,1.17,real,,2-1,3-2,won
+SFP-260830-009,2,16434039,2026-08-30,18:30,Bundesliga,FC Augsburg,FC Schalke 04,Team goals range 1-3,FC Augsburg: yes,1.31,model,,1-0,3-0,won
+SFP-260830-010,1,16363249,2026-08-30,16:00,Premier League,Chelsea,Brighton & Hove Albion,Team total,Brighton & Hove Albion over 0.5,1.35,model,,3-1,4-3,won
+SFP-260830-010,2,16434029,2026-08-30,16:30,Bundesliga,SC Freiburg,SV Werder Bremen,Double chance,SC Freiburg or draw,1.18,real,,2-0,4-1,won
+SFP-260830-010,3,16363253,2026-08-30,18:30,Premier League,Manchester United,Ipswich Town,Double chance,No draw,1.14,real,,1-1,5-2,won
+SFP-260904-011,1,16285001,2026-09-04,21:45,Serie A,Genoa,Como,Team total,Genoa over 0.5,1.65,model,,1-3,1-4,won
+SFP-260904-012,1,16434036,2026-09-04,21:30,Bundesliga,VfB Stuttgart,1. FC Köln,Double chance,No draw,1.17,real,,1-0,4-1,won
+SFP-260904-012,2,16416315,2026-09-04,22:00,LaLiga,Real Betis,Real Madrid,Each half under 1.5,No,1.22,model,,0-0,1-0,lost
+SFP-260904-012,3,16310944,2026-09-04,22:05,Ligue 1,Paris Saint-Germain,AS Monaco,1X2,Paris Saint-Germain to win,1.33,real,,1-0,1-2,lost
+SFP-260905-013,1,16434028,2026-09-05,16:30,Bundesliga,Borussia M'gladbach,SV 07 Elversberg,Team total,Borussia M'gladbach over 1.5,1.63,model,,2-1,3-4,won
+SFP-260905-014,1,16363637,2026-09-05,14:30,Premier League,Newcastle United,Bournemouth,Double chance,Newcastle United or draw,1.33,real,,1-2,2-2,won
+SFP-260905-014,2,16434101,2026-09-05,16:30,Bundesliga,SV Werder Bremen,RB Leipzig,Team goals range 1-3,RB Leipzig: yes,1.32,model,,1-0,3-1,won
+SFP-260905-014,3,16310938,2026-09-05,21:45,Ligue 1,Le Havre,Stade Brestois,Each half over 1.5,No,1.09,model,,0-1,1-2,won
+SFP-260906-015,1,16434030,2026-09-06,16:30,Bundesliga,Hamburger SV,1. FSV Mainz 05,Total goals,Over 1.5,1.22,real,,0-2,0-5,won
+SFP-260906-015,2,16310937,2026-09-06,18:15,Ligue 1,Angers,Stade Rennais,Team total,Stade Rennais over 0.5,1.11,model,,1-2,1-2,won
+SFP-260906-015,3,16363257,2026-09-06,18:30,Premier League,Arsenal,Chelsea,Double chance,Arsenal or draw,1.18,real,,1-1,2-1,won
+SFP-260906-016,1,16285000,2026-09-06,16:00,Serie A,Frosinone,Venezia,Team total,Venezia over 0.5,1.21,model,,2-0,3-2,won
+SFP-260906-016,2,16416325,2026-09-06,17:15,LaLiga,Valencia,FC Barcelona,Total goals,Over 1.5,1.11,real,,0-2,0-5,won
+SFP-260906-016,3,16434021,2026-09-06,18:30,Bundesliga,Eintracht Frankfurt,FC Augsburg,Team goals range 1-3,Eintracht Frankfurt: yes,1.32,model,,1-0,1-4,won
+SFP-260912-017,1,16434037,2026-09-12,16:30,Bundesliga,Borussia Dortmund,SC Paderborn 07,Each half under 1.5,No,1.17,model,,1-0,3-0,won
+SFP-260912-017,2,16363643,2026-09-12,17:00,Premier League,Crystal Palace,Ipswich Town,At least one team to score 1.5,Yes,1.41,model,,1-2,2-3,won
+SFP-260912-018,1,16434035,2026-09-12,16:30,Bundesliga,TSG Hoffenheim,VfB Stuttgart,Double chance,No draw,1.22,real,,1-0,2-1,won
+SFP-260912-018,2,16285012,2026-09-12,19:00,Serie A,Lazio,AC Milan,Team total,AC Milan over 0.5,1.24,model,,2-0,2-2,won
+SFP-260912-018,3,16363647,2026-09-12,19:30,Premier League,Tottenham Hotspur,Everton,Double chance,Tottenham Hotspur or draw,1.29,real,,0-0,0-0,won
+SFP-260913-019,1,16363645,2026-09-13,18:30,Premier League,Manchester United,Manchester City,Total goals,Over 1.5,1.14,real,,0-0,0-1,lost
+SFP-260913-019,2,16310948,2026-09-13,21:45,Ligue 1,Stade Brestois,Paris Saint-Germain,Team total,Paris Saint-Germain over 1.5,1.2,model,,0-1,0-1,lost
+SFP-260913-019,3,16285013,2026-09-13,21:45,Serie A,Sassuolo,Juventus,Double chance,Juventus or draw,1.17,real,,0-0,3-2,lost
+SFP-260913-020,1,16285014,2026-09-13,16:00,Serie A,Lecce,Monza,Double chance,No draw,1.36,real,,3-1,3-2,won
+SFP-260913-020,2,16363642,2026-09-13,16:00,Premier League,Coventry City,Brighton & Hove Albion,Total goals,Over 1.5,1.2,real,,0-1,0-5,won
+SFP-260913-020,3,16434043,2026-09-13,16:30,Bundesliga,RB Leipzig,Hamburger SV,Each half under 1.5,No,1.2,model,,2-0,5-0,won
+SFP-260919-021,1,16434034,2026-09-19,19:30,Bundesliga,VfB Stuttgart,Borussia Dortmund,Double chance,Borussia Dortmund or draw,1.57,real,,0-0,0-1,won
+SFP-260919-022,1,16310958,2026-09-19,21:45,Ligue 1,Le Mans,Lorient,Win at least one half,Le Mans,1.95,model,,1-0,2-1,won
+SFP-261010-023,1,16434056,2026-10-10,16:30,Bundesliga,TSG Hoffenheim,Hamburger SV,Each half under 1.5,No,1.2,model,,1-1,2-3,won
+SFP-261010-023,2,16363873,2026-10-10,17:00,Premier League,Chelsea,Bournemouth,Team total,Bournemouth over 0.5,1.35,model,,2-0,5-1,won
+SFP-261010-024,1,16363871,2026-10-10,14:30,Premier League,Arsenal,Leeds United,Team goals range 1-3,Arsenal: yes,1.31,model,,0-0,2-1,won
+SFP-261010-024,2,16285036,2026-10-10,21:45,Serie A,SSC Napoli,Frosinone,Goal in both halves,Yes,1.43,model,,2-0,3-0,won
+SFP-261011-025,1,16363876,2026-10-11,16:00,Premier League,Hull City,Everton,Each half over 1.5,No,1.08,model,,0-0,2-2,won
+SFP-261011-025,2,16421054,2026-10-11,19:30,LaLiga,Real Betis,Osasuna,Double chance,No draw,1.18,real,,2-0,5-2,won
+SFP-261011-025,3,16421064,2026-10-11,22:00,LaLiga,Real Racing Club,Valencia,Team total,Valencia over 0.5,1.28,model,,1-1,2-2,won
+SFP-261011-026,1,16285031,2026-10-11,13:30,Serie A,Como,AS Roma,Team goals range 1-3,Como: yes,1.3,model,,0-0,0-0,lost
+SFP-261011-026,2,16421058,2026-10-11,15:00,LaLiga,Elche,Celta Vigo,Total goals,Over 1.5,1.29,real,,0-0,0-0,lost
+SFP-261011-026,3,16421067,2026-10-11,17:15,LaLiga,Real Sociedad,Deportivo de La Coruña,Double chance,Real Sociedad or draw,1.17,real,,2-0,3-2,won
+SFP-261017-027,1,16434066,2026-10-17,16:30,Bundesliga,SV 07 Elversberg,FC Augsburg,At least one team to score 1.5,Yes,1.28,model,,3-1,4-3,won
+SFP-261017-027,2,16285039,2026-10-17,19:00,Serie A,Bologna,Inter,Team goals range 1-3,Inter: yes,1.31,model,,1-1,1-3,won
+SFP-261017-028,1,16421068,2026-10-17,19:30,LaLiga,Real Betis,FC Barcelona,Both teams to score,Yes,1.4,real,,1-2,2-5,won
+SFP-261017-028,2,16285043,2026-10-17,21:45,Serie A,AS Roma,Genoa,Win at least one half,AS Roma,1.36,model,,0-0,2-0,won
+SFP-261021-029,1,17122851,2026-10-21,21:00,LaLiga,Levante UD,Athletic Club,Each half under 1.5,No,1.56,model,,2-0,3-1,won
+SFP-261021-030,1,16939033,2026-10-21,19:45,UEFA Champions League,Como,Manchester United,Team total,Como over 1.5,1.92,model,,1-0,4-1,won
+SFP-261101-031,1,16421098,2026-11-01,18:15,LaLiga,Real Racing Club,Real Madrid,1X2,Real Madrid to win,1.18,real,,0-3,0-3,won
+SFP-261101-031,2,16310997,2026-11-01,22:45,Ligue 1,Olympique de Marseille,Toulouse,Double chance,Olympique de Marseille or draw,1.28,real,,2-0,2-0,won
+pro2611210000001,1,16363662,2026-11-21,20:30,Premier League,Newcastle United,Arsenal,Double Chance,Team 2 Win or Draw,1.14,real,,0-1,2-2,won
+pro2611210000001,2,16421116,2026-11-21,23:00,LaLiga,Real Madrid,Celta Vigo,1X2,Team 1 Win,1.17,real,,0-1,2-1,won
