@@ -61,7 +61,3 @@ SFF-261019-0059,2026-10-19,16285042,21:45,Serie A,Parma,Torino,At least one team
 SFF-261020-0060,2026-10-20,16938875,22:00,UEFA Champions League,AS Roma,ŠK Slovan Bratislava,Team goals range 1-3,AS Roma: yes,1.75,model,,2-0,4-0,lost,100,0,-100
 SFF-261021-0061,2026-10-21,16938870,22:00,UEFA Champions League,Real Betis,Feyenoord,1X2,Real Betis to win,1.65,real,,0-0,1-0,won,100,165,65
 SFF-261101-0062,2026-11-01,16434082,19:30,Bundesliga,Eintracht Frankfurt,Hamburger SV,1X2,Eintracht Frankfurt to win,1.53,real,,1-1,3-1,won,100,153,53
-free2611210000002,2026-11-21,16363654,18:00,Premier League,Aston Villa,Sunderland,Draw No Bet,Team 1 Win,1.3,real,,0-0,0-0,void,100,100,0
-free2611210000001,2026-11-21,16421116,23:00,LaLiga,Real Madrid,Celta Vigo,1X2,Team 1 Win,1.17,real,,0-1,2-1,won,100,117,17
-free2611220000003,2026-11-22,16363659,17:00,Premier League,Hull City,Brighton & Hove Albion,1X2,Team 2 Win,1.5,real,,0-0,2-0,lost,100,0,-100
-free2611220000004,2026-11-22,16421115,23:00,LaLiga,Getafe,Atlético Madrid,Double Chance,Team 2 Win or Draw,1.13,real,,0-2,0-3,won,500,565,65
